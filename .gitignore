@@ -1,0 +1,18 @@
+# Credentials — never commit these
+.env
+~/.brain_credentials
+
+# Simulation cache and results
+simulation_cache.parquet
+results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
